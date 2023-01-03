@@ -57,3 +57,5 @@ baseurl: /my-test/      # place folder name if the site is served in a subfolder
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+theme: minima
+remote_theme: benbalter/retlab
