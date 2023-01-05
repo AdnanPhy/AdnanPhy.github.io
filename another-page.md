@@ -2,7 +2,10 @@
 layout: default
 ---
 
-## Welcome to another page
+
+# Philosophy, History and Lecture
+# French Langauge
+# Chess
 
 _yay_
 
