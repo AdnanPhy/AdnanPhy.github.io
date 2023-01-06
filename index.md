@@ -38,32 +38,13 @@ There should be whitespace between paragraphs. We recommend including a README, 
 
 This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
 
-# (X)Emacs
-
-* Emacs Commands. 
-Emacs Shortcut Cheatsheet. C-x is ```Ctrl+X```; M-x is usually ```Alt+X```; S-x is ```Shift+X```; and C-M-x is ```Ctrl+Alt+X```. C-x means: hold Control and x at the same time.
-
-
-
-
 
 
 ### (X)Emacs
 
 - Emacs Commands. 
   - Emacs Shortcut Cheatsheet. C-x is ```Ctrl+X```; M-x is usually ```Alt+X```; S-x is ```Shift+X```; and C-M-x is ```Ctrl+Alt+X```. C-x means: hold Control and x at the same time.
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-
+  
 
 ###### basic commands
 
@@ -248,7 +229,7 @@ end
 ### Large image
 
 ![Branching](https://guides.github.com/activities/hello-world/branching.png)
-![Branching](https://www.youtube.com/watch?v=1RHLB-V1M7E)
+
 
 ### Definition lists can be used with HTML syntax.
 
@@ -266,7 +247,7 @@ end
 
 ![My helpful screenshot](/assets/images/logo.png)
 
-... you can [get the PDF](/assets/image/documents.pdf) directly.
+
 ```
 Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
 ```
