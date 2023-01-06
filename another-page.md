@@ -13,7 +13,7 @@ layout: default
 > — Dmitri Karamazov, The Brothers Karamazov 
 
 # Philosophy
-# , History
+# History
 # French Langauge
 # Chess
 # Hicking

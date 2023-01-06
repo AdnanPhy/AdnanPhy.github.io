@@ -40,7 +40,52 @@ This is a normal paragraph following a header. GitHub is a code hosting platform
 
 # (X)Emacs
 
-* Emacs Commands
+* Emacs Commands. 
+Emacs Shortcut Cheatsheet. C-x is ```Ctrl+X```; M-x is usually ```Alt+X```; S-x is ```Shift+X```; and C-M-x is ```Ctrl+Alt+X```. C-x means: hold Control and x at the same time.
+
+
+
+
+
+
+### (X)Emacs
+
+- Emacs Commands. 
+  - Emacs Shortcut Cheatsheet. C-x is ```Ctrl+X```; M-x is usually ```Alt+X```; S-x is ```Shift+X```; and C-M-x is ```Ctrl+Alt+X```. C-x means: hold Control and x at the same time.
+  - level 2 item
+    - level 3 item
+    - level 3 item
+- level 1 item
+  - level 2 item
+  - level 2 item
+  - level 2 item
+- level 1 item
+  - level 2 item
+  - level 2 item
+- level 1 item
+
+
+###### basic commands
+
+
+|:-------------|:------------------|
+|save file     |  `C-x C-s`        | 
+| exit emacs   |   `C-x C-c`       | 
+| undo         | `C-_`             | 
+|shell command | `M-!`             | 
+
+
+
+
+
+
+
+
+
+
+
+
+
 *  JAVA Emacs-IDE
 Here...
 *  C++ Emacs-IDE
