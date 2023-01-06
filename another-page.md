@@ -3,7 +3,7 @@ layout: default
 ---
 
 
-# Lecture
+# Literature
 
 ```Fyodor Mikhailovich Dostoevsky``` ( November 11, 1821-February 9, 1881).  The sibling in The Brothers Karamazov who I like the most is Dmitri Fyodorovich Karamazov. 
 ![My helpful screenshot](/assets/images/dmitri.jpeg)

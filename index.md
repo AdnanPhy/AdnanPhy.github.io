@@ -40,11 +40,11 @@ This is a normal paragraph following a header. GitHub is a code hosting platform
 
 # (X)Emacs
 
+* Emacs Commands
 *  JAVA Emacs-IDE
 Here...
 *  C++ Emacs-IDE
-[detail here ](./https://tuhdo.github.io/c-ide.html).
-[Link To A Page](/https://tuhdo.github.io/c-ide.html/)
+
 
 ![My helpful screenshot](/assets/images/emacscpp.gif)
 Here...
@@ -56,7 +56,7 @@ Here..
 #  Python-Django-web framework.
 
 
-
+# Qt Creator C++
 
 
 > This is a blockquote following a header.
@@ -66,6 +66,53 @@ Here..
 # Java
 
 # JavaFX-OpenJFX
+* Command to install openjfx ```apt install openjfx```.
+* Compile JavaFx file command in Linux 
+
+```
+javac  --module-path /path/to/openjavafx/lib --add-modules javafx.swing,javafx.graphics,javafx.fxml,javafx.media,javafx.controls HelloWorld.java
+```
+than run the command
+```
+java  --module-path /path/to/openjavafx/lib --add-modules javafx.swing,javafx.graphics,javafx.fxml,javafx.media,javafx.controls HelloWorld
+```
+where HelloWorld is the name of the java class file.
+* Example
+```js
+import javafx.application.Application;
+    import javafx.event.ActionEvent;
+    import javafx.event.EventHandler;
+    import javafx.scene.Scene;
+    import javafx.scene.control.Button;
+    import javafx.scene.layout.StackPane;
+    import javafx.stage.Stage;
+     
+    public class HelloWorld extends Application {
+        public static void main(String[] args) {
+            launch(args);
+        }
+        
+        @Override
+        public void start(Stage primaryStage) {
+            primaryStage.setTitle("Hello World!");
+            Button btn = new Button();
+            btn.setText("Say 'Hello World'");
+            btn.setOnAction(new EventHandler<ActionEvent>() {
+     
+                @Override
+                public void handle(ActionEvent event) {
+                    System.out.println("Hello World!");
+                }
+            });
+            
+            StackPane root = new StackPane();
+            root.getChildren().add(btn);
+            primaryStage.setScene(new Scene(root, 300, 250));
+            primaryStage.show();
+        }
+    }
+```
+![My helpful screenshot](/assets/images/javafx.png)
 
 # Linux  console commands
 
