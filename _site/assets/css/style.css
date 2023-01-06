@@ -584,12 +584,12 @@ table {
 }
 
 body {
-  font: 14px/22px "Quattrocento Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 14px/22px "Quattrocento Sans", "Helvetica Neue", Helvetica, Arial, sans-serif, Quattrocento Sans;
   color: #2b2b2b;
-  font-weight: 300;
+  font-weight: 400;
   margin: 0px;
   padding: 0px 0 20px 0px;
-  background: url(../images/body-background.png) #eae6d1;
+  background: url(../images/bg2.jpg) #eae6d1;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -663,7 +663,7 @@ blockquote {
 }
 
 code {
-  font-family: "Lucida Sans", Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal;
+  font-family: "Terminal", Monaco, Bitstream Vera Sans Mono, Lucida Console, Lucida Sans;
   font-size: 13px;
   color: #efefef;
   text-shadow: 0px 1px 0px #000;
@@ -743,17 +743,17 @@ header {
   left: 0;
   right: 0;
   width: 100%;
-  text-align: center;
-  background: url(../images/background.png) #4276b6;
+  text-align: left;
+  background: url(../images/nice6.png) #4276b6;
   box-shadow: 1px 0px 2px rgba(0, 0, 0, 0.75);
   z-index: 99;
   -webkit-font-smoothing: antialiased;
   min-height: 76px;
 }
 header h1 {
-  font: 40px/48px "Copse", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: #f3f3f3;
-  text-shadow: 0px 2px 0px #235796;
+  font: 40px/48px "Copse", "Helvetica Neue", Helvetica, Copse, sans-serif, Copse;
+  color: #008080;
+  text-shadow: 0px 2px 0px #00FF00;
   margin: 0px;
   white-space: nowrap;
   overflow: hidden;
@@ -772,11 +772,11 @@ header p {
   z-index: 100;
   left: 0;
   right: 50%;
-  height: 50px;
+  height: 25px;
   margin-right: -382px;
   position: fixed;
   top: 115px;
-  background: #ffcc00;
+  background: #DE3163;
   border: 1px solid #f0b500;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.25);
   border-radius: 0px 2px 2px 0px;
@@ -790,9 +790,9 @@ header p {
   background-color: #FFE788;
   margin-left: 5px;
   padding: 10px 12px;
-  margin-top: 6px;
-  line-height: 14px;
-  font-size: 14px;
+  margin-top: 2px;
+  line-height: 1px;
+  font-size: 9px;
   color: #333;
   font-weight: bold;
   display: inline-block;
@@ -807,18 +807,18 @@ header p {
   left: 50%;
   margin-left: -325px;
   padding: 10px 12px;
-  margin-top: 6px;
-  line-height: 14px;
-  font-size: 14px;
+  margin-top: 2px;
+  line-height: 1px;
+  font-size: 9px;
   background-color: #FFE788;
 }
 #banner .downloads {
-  float: right;
-  margin: 0 45px 0 0;
+  float: left;
+  margin: 0 60px 0 0;
 }
 #banner .downloads span {
   float: left;
-  line-height: 52px;
+  line-height: 20px;
   font-size: 90%;
   color: #9d7f0d;
   text-transform: uppercase;
@@ -844,7 +844,7 @@ header p {
   right: 7px;
   top: 7px;
   display: block;
-  background: url(../images/octocat-logo.svg);
+  background: url(../images/redhat3.png);
 }
 
 section {

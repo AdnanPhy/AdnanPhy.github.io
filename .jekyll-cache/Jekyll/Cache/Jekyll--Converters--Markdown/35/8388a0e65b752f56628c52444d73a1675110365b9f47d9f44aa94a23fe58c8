@@ -1,74 +1,4 @@
-<!doctype html>
-<html lang="en-US">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
-<!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>ADnan | Code Languages C++, Python and Java</title>
-<meta name="generator" content="Jekyll v4.3.1" />
-<meta property="og:title" content="ADnan" />
-<meta property="og:locale" content="en_US" />
-<meta name="description" content="Code Languages C++, Python and Java" />
-<meta property="og:description" content="Code Languages C++, Python and Java" />
-<link rel="canonical" href="http://localhost:4000/" />
-<meta property="og:url" content="http://localhost:4000/" />
-<meta property="og:site_name" content="ADnan" />
-<meta property="og:type" content="website" />
-<meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="ADnan" />
-<script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebSite","description":"Code Languages C++, Python and Java","headline":"ADnan","name":"ADnan","url":"http://localhost:4000/"}</script>
-<!-- End Jekyll SEO tag -->
-
-    <link rel="stylesheet" href="/assets/css/style.css?v=">
-    <script src="https://code.jquery.com/jquery-3.3.0.min.js" integrity="sha256-RTQy8VOmNlT6b2PIRur37p6JEBZUE7o8wPgMvu18MC4=" crossorigin="anonymous"></script>
-    <script src="/assets/js/main.js"></script>
-    <!--[if lt IE 9]>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" integrity="sha256-3Jy/GbSLrg0o9y5Z5n1uw0qxZECH7C6OQpVBgNFYa0g=" crossorigin="anonymous"></script>
-    <![endif]-->
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-
-    <!-- start custom head snippets, customize with your own _includes/head-custom.html file -->
-
-<!-- Setup Google Analytics -->
-
-
-
-<!-- You can set your favicon here -->
-<!-- link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" -->
-
-<!-- end custom head snippets -->
-
-  </head>
-  <body>
-
-      <header>
-        <h1>ADnan</h1>
-        <p>Code Languages C++, Python and Java</p>
-      </header>
-
-      <div id="banner">
-        <span id="logo"></span>
-
-        <a href="" class="button fork"><strong>View On GitHub</strong></a>
-        
-          <div class="downloads">
-            <span>Downloads:</span>
-            <ul>
-              <li><a href="" class="button">ZIP</a></li>
-              <li><a href="" class="button">TAR</a></li>
-            </ul>
-          </div>
-        
-      </div><!-- end banner -->
-
-    <div class="wrapper">
-      <nav>
-        <ul></ul>
-      </nav>
-      <section>
-        <p><a href="./another-page.html">Personal Page</a>.</p>
+I"Þ><p><a href="./another-page.html">Personal Page</a>.</p>
 
 <p>My name is Adann.I am interested in learning more about the C++, Java, and Python programming languages, especially how they are used to web development under Unix/Linux-Environment using (X)Emacs, vim and gvim Text Editor as a IDE (Integrated Development Environment).. Wt, C++ Web Toolkit  and Python-Django-web framework.
 <img src="/assets/images/gcc.png" alt="My helpful screenshot" /></p>
@@ -99,14 +29,41 @@
 
 <p>This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.</p>
 
-<h3 id="xemacs">(X)Emacs</h3>
+<h1 id="xemacs">(X)Emacs</h1>
+
+<ul>
+  <li>Emacs Commands. 
+Emacs Shortcut Cheatsheet. C-x is <code class="language-plaintext highlighter-rouge">Ctrl+X</code>; M-x is usually <code class="language-plaintext highlighter-rouge">Alt+X</code>; S-x is <code class="language-plaintext highlighter-rouge">Shift+X</code>; and C-M-x is <code class="language-plaintext highlighter-rouge">Ctrl+Alt+X</code>. C-x means: hold Control and x at the same time.</li>
+</ul>
+
+<h3 id="xemacs-1">(X)Emacs</h3>
 
 <ul>
   <li>Emacs Commands.
     <ul>
       <li>Emacs Shortcut Cheatsheet. C-x is <code class="language-plaintext highlighter-rouge">Ctrl+X</code>; M-x is usually <code class="language-plaintext highlighter-rouge">Alt+X</code>; S-x is <code class="language-plaintext highlighter-rouge">Shift+X</code>; and C-M-x is <code class="language-plaintext highlighter-rouge">Ctrl+Alt+X</code>. C-x means: hold Control and x at the same time.</li>
+      <li>level 2 item
+        <ul>
+          <li>level 3 item</li>
+          <li>level 3 item</li>
+        </ul>
+      </li>
     </ul>
   </li>
+  <li>level 1 item
+    <ul>
+      <li>level 2 item</li>
+      <li>level 2 item</li>
+      <li>level 2 item</li>
+    </ul>
+  </li>
+  <li>level 1 item
+    <ul>
+      <li>level 2 item</li>
+      <li>level 2 item</li>
+    </ul>
+  </li>
+  <li>level 1 item</li>
 </ul>
 
 <h6 id="basic-commands">basic commands</h6>
@@ -358,12 +315,4 @@ Here..
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>The final element.
 </code></pre></div></div>
-
-       </section>
-      <footer>
-        
-        <p><small>My Twitter <a href="https://twitter.com/MAShahzad16">ADnan</a></small></p>
-      </footer>
-    </div>
-  </body>
-</html>
+:ET
