@@ -40,9 +40,13 @@ This is a normal paragraph following a header. GitHub is a code hosting platform
 
 # (X)Emacs
 
-#JAVA Emacs-IDE
+*  JAVA Emacs-IDE
 Here...
-#C++ Emacs-IDE
+*  C++ Emacs-IDE
+[detail here ](./https://tuhdo.github.io/c-ide.html).
+[Link To A Page](/https://tuhdo.github.io/c-ide.html/)
+
+![My helpful screenshot](/assets/images/emacscpp.gif)
 Here...
 #Python Emacs-IDE
 Here..
@@ -152,7 +156,7 @@ end
 ### Large image
 
 ![Branching](https://guides.github.com/activities/hello-world/branching.png)
-
+![Branching](https://www.youtube.com/watch?v=1RHLB-V1M7E)
 
 ### Definition lists can be used with HTML syntax.
 
@@ -169,6 +173,7 @@ end
 
 
 ![My helpful screenshot](/assets/images/logo.png)
+
 ... you can [get the PDF](/assets/image/documents.pdf) directly.
 ```
 Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
