@@ -8,7 +8,7 @@ by Matt Graham
 @import "rouge-base16-dark";
 
 body {
-  font:14px/22px 'Computer Modern', "Helvetica Neue" ,Helvetica, Arial, sans-serif, Quattrocento Sans;
+  font:14px/22px 'Quattrocento Sans', "Helvetica Neue" ,Helvetica, Arial, sans-serif, Quattrocento Sans;
   color:#b4b4b4;
   font-weight:400;
   margin: 0px;
@@ -87,7 +87,7 @@ blockquote {
 }
 
 code {
-  font-family: 'Computer Modern', Monaco, Bitstream Vera Sans Mono, Lucida Console, Lucida Sans;
+  font-family: 'Terminal', Monaco, Bitstream Vera Sans Mono, Lucida Console, Lucida Sans;
   font-size:13px;
   color:#efefef;
   text-shadow: 0px 1px 0px #000;
@@ -177,7 +177,7 @@ header {
   min-height: 76px;
 
   h1 {
-    font: 19px/51px 'Computer Modern', "Helvetica Neue", Helvetica, Copse, sans-serif,Copse, Copse;
+    font: 19px/51px 'Helvetica', "Helvetica Neue", Helvetica, Copse, sans-serif,Copse, Copse;
     color: #002147;
     text-shadow: 0px 2px 0px #b18d00;
     margin: 0px;
