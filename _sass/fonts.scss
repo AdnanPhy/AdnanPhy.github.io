@@ -63,16 +63,16 @@
   @font-face {
     font-family: "Computer Modern";
     src: url('http://mirrors.ctan.org/fonts/cm-unicode/fonts/otf/cmunsx.otf');
-    font-weight: bold;
+    font-weight: normal;
   }
   @font-face {
     font-family: "Computer Modern";
     src: url('http://mirrors.ctan.org/fonts/cm-unicode/fonts/otf/cmunsi.otf');
-    font-style: italic, oblique;
+    font-style: normal;
   }
   @font-face {
     font-family: "Computer Modern";
     src: url('http://mirrors.ctan.org/fonts/cm-unicode/fonts/otf/cmunbxo.otf');
-    font-weight: bold;
-    font-style: italic, oblique;
+    font-weight: normal;
+    font-style: normal;
   }
