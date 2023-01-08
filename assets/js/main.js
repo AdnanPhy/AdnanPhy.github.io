@@ -13,7 +13,7 @@ var sectionHeight = function() {
 $(window).resize(sectionHeight);
 
 $(function() {
-  $("section h1, section h2, section h3").each(function(){
+  $("section h1, section h2, section h3").on("click", "a", function(event){
     $("nav ul").append("<li class='tag-" + this.nodeName.toLowerCase() + "'><a href='#" + $(this).text().toLowerCase().replace(/ /g, '-').replace(/[^\w-]+/g,'') + "'>" + $(this).text() + "</a></li>");
     $(this).attr("href",$(this).text().toLowerCase().replace(/ /g, '-').replace(/[^\w-]+/g,''));
     $("nav ul li:first-child a").parent().addClass("active");
