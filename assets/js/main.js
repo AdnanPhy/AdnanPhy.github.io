@@ -20,7 +20,7 @@ $(function() {
   });
 
   $("nav ul li").on("click", "a", function(event) {
-    var position = $(this).attr("target","_self");
+    var position = $(this).attr("target","_blank");
     $("html, body").animate({scrollTop: position}, 400);
     $("nav ul li a").parent().removeClass("active");
     $(this).parent().addClass("active");
