@@ -20,11 +20,12 @@ $(function() {
   });
 
   $("nav ul li").on("click", "a", function(event) {
-    var position = $($(this).attr("href")).offset().top - 190;
+    e.preventDefault();
+    var position = $(this).attr("href"));
     $("html, body").animate({scrollTop: position}, 400);
     $("nav ul li a").parent().removeClass("active");
     $(this).parent().addClass("active");
-    event.preventDefault();
+    window.open(url, '_blank');
   });
 
   $(document).ready(function(){
