@@ -20,7 +20,7 @@ $(function() {
   });
 
   $("nav ul li").on("mousedown", "a", function(event) {
-    var position = $(this).attr("href": var , "target":"_blank");
+    var position = $(this).attr("href");
     $("html, body").animate({scrollTop: position}, 400);
     $("nav ul li a").parent().removeClass("active");
     $(this).parent().addClass("active");
