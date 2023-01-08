@@ -19,7 +19,7 @@ $(function() {
     $("nav ul li:first-child a").parent().addClass("active");
   });
 
-  $("nav ul li").on("mousedown", "a", function(event) {
+  $("nav ul li").one("mousedown", "a", function(event) {
     var position = $(this).attr("href");
     $("html, body").animate({scrollTop: position}, 400);
     $("nav ul li a").parent().removeClass("active");
