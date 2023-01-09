@@ -20,7 +20,7 @@ $(function() {
   });
 
   $("nav ul li").one("mousedown", "a", function(event) {
-    var position = $(this).attr("href");
+    var position = $(this).attr("target", "_blank");
     $("nav ul li a").parent().removeClass("active");
     $(this).parent().addClass("active");
   });
